@@ -157,11 +157,7 @@ public class HotelFinderNative extends ReactContextBaseJavaModule {
             .select(
                     SelectResult.expression(Meta.id.from("hotelsDS")).as("id"),
                     SelectResult.expression(Expression.property("name").from("hotelsDS")),
-                    SelectResult.expression(Expression.property("address").from("hotelsDS")),
-                    SelectResult.expression(Expression.property("city").from("hotelsDS")),
-                    SelectResult.expression(Expression.property("state").from("hotelsDS")),
-                    SelectResult.expression(Expression.property("country").from("hotelsDS")),
-                    SelectResult.expression(Expression.property("phone").from("hotelsDS"))
+                    SelectResult.expression(Expression.property("address").from("hotelsDS"))
             )
             .from(bookmarkDS)
             .join(join)

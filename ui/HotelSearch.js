@@ -86,6 +86,7 @@ export default class HotelSearch extends React.Component {
     }
   };
 
+  // eslint-disable-next-line no-undef
   bookmarkHotel = (rowMap, data) => {
     console.log('bookmark: ' + data.item.id);
     HotelFinderNative.bookmark(

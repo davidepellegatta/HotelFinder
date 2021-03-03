@@ -14,15 +14,10 @@ import com.couchbase.lite.LogDomain;
 import com.couchbase.lite.LogLevel;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
 
 // tag::setup-database[]
-public class
-DatabaseManager {
+public class DatabaseManager {
 
 
     private static String DB_NAME = "travel-sample";
