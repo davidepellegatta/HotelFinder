@@ -1,9 +1,9 @@
-#Couchbase Lite demo with React Native
+## Couchbase Lite demo with React Native
 
 This project is mentioned to showcase the integration between RN and Couchbase Lite. At the current state is available only
 the android implementation but stay tuned: ios is coming as well.
 
-##Steps to run
+### Steps to run
 
 Before you run: be sure to have Android Studio installed!
 
